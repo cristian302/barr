@@ -1,1 +1,169 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    background: #f10505;
+    height: 90px;
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 70px;
+    padding: 30px 30px;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgb(0,0,0,0.3);
+}
+.menu ul{
+    margin:0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.menu li{
+    text-align:center;
+    flex-grow: 1;
+}
+.menu li:hover{
+    background: rgba(0,0,0,0.3);
+}
+.menu li a   {
+    display: block;
+    padding: 33px ;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media(max-width:768px) {
+    header label {
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        background: #f10505;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        border-top: 1px solid #fff;
+    }
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+}
+
+
+.menu ul ul {
+    display:none;
+}
+.menu a{
+    display: block;
+    padding: 25px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu a:hover{
+    background:rgba(0,0,0,0.3); ;
+}
+.menu ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+*/
+
+
+
+
+
+/*
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    height: 50px;
+    background:#ec0909;
+    color:#fff;
+    
+    
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    font-size: 30px;
+    cursor:pointer;
+    display: none;
+    
+}
+.menu ul{
+    background: #f50713;
+    display: flex;
+    list-style: none;
+}
+.menu ul ul{
+    display: none;
+}
+.menu a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: rgba(0,0,0,0.3);
+}
+.menu a span{
+    margin-left: 10px;
+}
+.menu ul li:hover ul{
+    
+    display:block;
+    position: absolute;  
+}
+@media (max-width:768px){
+    header label{
+        display :block;
+    }
+    .menu{
+        position: absolute;
+        top:50px;
+        width:100%;
+    }
+    .menu ul{
+        flex-direction: column;
+        background: rgb(240, 9, 9);
+    }
+    .menu ul li:hover ul{
+        display: none;
+        position: static;
+    }
+
+    .menu a span{
+        position: absolute;
+        right:5px;
+    }
+    #btn-menu:checked ~ .menu{
+        transform: translatex(0%);
+    }
+}
+*/
+
+
+
+
+
+
